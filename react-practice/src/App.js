@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Accordian from './components/accordion';
 
 function App() {
   return (
     <div className="App">
-      
+      <Accordian/>
       <h1>Welcome</h1>
     </div>
   );
